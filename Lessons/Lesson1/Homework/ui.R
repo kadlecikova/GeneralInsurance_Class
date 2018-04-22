@@ -1,8 +1,8 @@
-
-
+library(shiny)
+library(datasets)
 # Use a fluid Bootstrap layout
-fluidPage(Input() element(s),
-          Output() element(s))
+fluidPage(Input() element(),
+          Output() element(),
   
   # Give the page a title
   titlePanel("Lesson 1 - Homework"),
